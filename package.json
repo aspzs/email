@@ -1,12 +1,14 @@
 {
   "dependencies": {
     "dotenv": "^16.0.3",
-    "nodemailer": "^6.8.0"
+    "nodemailer": "^6.8.0",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemailer-handlebars": "^1.0.1"
   },
   "name": "sendemailscript",
   "version": "1.0.0",
   "description": "Send email",
-  "main": "plugins.js",
+  "main": "sendEmail.js",
   "scripts": {
     "test": "start"
   },
